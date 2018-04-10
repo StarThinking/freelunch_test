@@ -1,0 +1,26 @@
+*****  Elapsed time: 4012 ms. | Phase average CSP: 40.05%
+ 1 - Phase CSP: 40.05 %, Class: java.lang.Object  (2 total frames)
+	at MyThread.func(Test.java:30)
+	at MyThread.run(Test.java:42)
+*****  Elapsed time: 35323 ms. | Phase average CSP: 60.93%
+ 1 - Phase CSP: 60.93 %, Class: java.lang.Object  (2 total frames)
+	at MyThread.func(Test.java:30)
+	at MyThread.run(Test.java:42)
+-----------------------------------------------------
+Monitors ranked by average CSP (CSPThresholdSummary: 0.01 %)
+Rank   Average CSP         Object class
+   1      4.55 %     java.lang.Object
+   2      0.00 %     [I
+-----------------------------------------------------
+Monitors ranked by average CSP (CSPThresholdSummary: 0.01 %)
+Displaying the associated stack trace (10 frame(s) displayed maximum)
+Rank   Average CSP         Object class
+   1      4.55 %     java.lang.Object     (2 frame(s) available)
+	at MyThread.func(Test.java:30)
+	at MyThread.run(Test.java:42)
+   2      0.00 %     [I     (5 frame(s) available)
+	at java.util.Hashtable.<init>(Hashtable.java:191)
+	at java.util.Hashtable.<init>(Hashtable.java:211)
+	at java.util.Properties.<init>(Properties.java:148)
+	at java.util.Properties.<init>(Properties.java:140)
+	at java.lang.System.initializeSystemClass(System.java:1162)

@@ -1,0 +1,98 @@
+*****  Elapsed time: 712 ms. | Phase average CSP: 17.24%
+ 1 - Phase CSP: 11.00 %, Class: Producer  (2 total frames)
+	at Producer.getMessage(Consumer.java:31)
+	at Consumer.run(Consumer.java:53)
+*****  Elapsed time: 1408 ms. | Phase average CSP: 18.55%
+ 1 - Phase CSP: 9.76 %, Class: Producer  (2 total frames)
+	at Producer.getMessage(Consumer.java:31)
+	at Consumer.run(Consumer.java:53)
+*****  Elapsed time: 2105 ms. | Phase average CSP: 19.32%
+ 1 - Phase CSP: 14.82 %, Class: java.io.PrintStream  (2 total frames)
+	at java.io.PrintStream.println(PrintStream.java:806)
+	at Consumer.run(Consumer.java:54)
+*****  Elapsed time: 2804 ms. | Phase average CSP: 19.37%
+ 1 - Phase CSP: 14.61 %, Class: java.io.PrintStream  (2 total frames)
+	at java.io.PrintStream.println(PrintStream.java:806)
+	at Consumer.run(Consumer.java:54)
+*****  Elapsed time: 3508 ms. | Phase average CSP: 19.37%
+ 1 - Phase CSP: 16.78 %, Class: Producer  (2 total frames)
+	at Producer.getMessage(Consumer.java:31)
+	at Consumer.run(Consumer.java:53)
+*****  Elapsed time: 4257 ms. | Phase average CSP: 19.60%
+ 1 - Phase CSP: 17.78 %, Class: Producer  (2 total frames)
+	at Producer.getMessage(Consumer.java:31)
+	at Consumer.run(Consumer.java:53)
+*****  Elapsed time: 5851 ms. | Phase average CSP: 19.48%
+ 1 - Phase CSP: 17.01 %, Class: Producer  (2 total frames)
+	at Producer.getMessage(Consumer.java:31)
+	at Consumer.run(Consumer.java:53)
+*****  Elapsed time: 6518 ms. | Phase average CSP: 18.68%
+ 1 - Phase CSP: 12.91 %, Class: Producer  (2 total frames)
+	at Producer.getMessage(Consumer.java:31)
+	at Consumer.run(Consumer.java:53)
+*****  Elapsed time: 7348 ms. | Phase average CSP: 19.38%
+ 1 - Phase CSP: 9.97 %, Class: java.io.PrintStream  (2 total frames)
+	at java.io.PrintStream.println(PrintStream.java:806)
+	at Consumer.run(Consumer.java:54)
+*****  Elapsed time: 8269 ms. | Phase average CSP: 19.39%
+ 1 - Phase CSP: 15.19 %, Class: java.io.PrintStream  (2 total frames)
+	at java.io.PrintStream.println(PrintStream.java:806)
+	at Consumer.run(Consumer.java:54)
+*****  Elapsed time: 8976 ms. | Phase average CSP: 19.18%
+ 1 - Phase CSP: 13.68 %, Class: java.io.PrintStream  (2 total frames)
+	at java.io.PrintStream.println(PrintStream.java:806)
+	at Consumer.run(Consumer.java:54)
+*****  Elapsed time: 9791 ms. | Phase average CSP: 19.36%
+ 1 - Phase CSP: 14.78 %, Class: java.io.PrintStream  (2 total frames)
+	at java.io.PrintStream.println(PrintStream.java:806)
+	at Consumer.run(Consumer.java:54)
+*****  Elapsed time: 10576 ms. | Phase average CSP: 19.57%
+ 1 - Phase CSP: 15.72 %, Class: java.io.PrintStream  (2 total frames)
+	at java.io.PrintStream.println(PrintStream.java:806)
+	at Consumer.run(Consumer.java:54)
+*****  Elapsed time: 11414 ms. | Phase average CSP: 19.18%
+ 1 - Phase CSP: 12.65 %, Class: java.io.PrintStream  (2 total frames)
+	at java.io.PrintStream.println(PrintStream.java:806)
+	at Consumer.run(Consumer.java:54)
+*****  Elapsed time: 12168 ms. | Phase average CSP: 19.30%
+ 1 - Phase CSP: 13.38 %, Class: java.io.PrintStream  (2 total frames)
+	at java.io.PrintStream.println(PrintStream.java:806)
+	at Consumer.run(Consumer.java:54)
+*****  Elapsed time: 13208 ms. | Phase average CSP: 19.84%
+ 1 - Phase CSP: 19.18 %, Class: Producer  (2 total frames)
+	at Producer.getMessage(Consumer.java:31)
+	at Consumer.run(Consumer.java:53)
+*****  Elapsed time: 14271 ms. | Phase average CSP: 19.36%
+ 1 - Phase CSP: 16.56 %, Class: Producer  (2 total frames)
+	at Producer.getMessage(Consumer.java:31)
+	at Consumer.run(Consumer.java:53)
+*****  Elapsed time: 15304 ms. | Phase average CSP: 19.36%
+ 1 - Phase CSP: 16.45 %, Class: Producer  (2 total frames)
+	at Producer.getMessage(Consumer.java:31)
+	at Consumer.run(Consumer.java:53)
+*****  Elapsed time: 16667 ms. | Phase average CSP: 16.19%
+ 1 - Phase CSP: 14.34 %, Class: Producer  (2 total frames)
+	at Producer.getMessage(Consumer.java:31)
+	at Consumer.run(Consumer.java:53)
+-----------------------------------------------------
+Monitors ranked by average CSP (CSPThresholdSummary: 0.01 %)
+Rank   Average CSP         Object class
+   1     10.12 %     Producer
+   2      7.54 %     java.io.PrintStream
+   3      0.00 %     [I
+-----------------------------------------------------
+Monitors ranked by average CSP (CSPThresholdSummary: 0.01 %)
+Displaying the associated stack trace (10 frame(s) displayed maximum)
+Rank   Average CSP         Object class
+   1     10.12 %     Producer     (2 frame(s) available)
+	at Producer.getMessage(Consumer.java:31)
+	at Consumer.run(Consumer.java:53)
+   2      7.54 %     java.io.PrintStream     (2 frame(s) available)
+	at java.io.PrintStream.println(PrintStream.java:806)
+	at Consumer.run(Consumer.java:54)
+   3      0.00 %     [I     (5 frame(s) available)
+	at java.util.Hashtable.<init>(Hashtable.java:191)
+	at java.util.Hashtable.<init>(Hashtable.java:211)
+	at java.util.Properties.<init>(Properties.java:148)
+	at java.util.Properties.<init>(Properties.java:140)
+	at java.lang.System.initializeSystemClass(System.java:1162)

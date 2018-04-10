@@ -1,0 +1,39 @@
+*****  Elapsed time: 1216 ms. | Phase average CSP: 16.79%
+ 1 - Phase CSP: 16.79 %, Class: Producer  (2 total frames)
+	at Producer.getMessage(Consumer.java:38)
+	at Consumer.run(Consumer.java:60)
+*****  Elapsed time: 4013 ms. | Phase average CSP: 20.03%
+ 1 - Phase CSP: 20.03 %, Class: Producer  (2 total frames)
+	at Producer.getMessage(Consumer.java:38)
+	at Consumer.run(Consumer.java:60)
+*****  Elapsed time: 10014 ms. | Phase average CSP: 20.01%
+ 1 - Phase CSP: 20.01 %, Class: Producer  (2 total frames)
+	at Producer.getMessage(Consumer.java:38)
+	at Consumer.run(Consumer.java:60)
+*****  Elapsed time: 14014 ms. | Phase average CSP: 20.01%
+ 1 - Phase CSP: 20.01 %, Class: Producer  (2 total frames)
+	at Producer.getMessage(Consumer.java:38)
+	at Consumer.run(Consumer.java:60)
+*****  Elapsed time: 24464 ms. | Phase average CSP: 16.91%
+ 1 - Phase CSP: 16.91 %, Class: Producer  (2 total frames)
+	at Producer.getMessage(Consumer.java:38)
+	at Consumer.run(Consumer.java:60)
+-----------------------------------------------------
+Monitors ranked by average CSP (CSPThresholdSummary: 0.01 %)
+Rank   Average CSP         Object class
+   1     11.30 %     Producer
+   2      0.00 %     [I
+-----------------------------------------------------
+Monitors ranked by average CSP (CSPThresholdSummary: 0.01 %)
+Displaying the associated stack trace (10 frame(s) displayed maximum)
+Rank   Average CSP         Object class
+   1     11.30 %     Producer     (2 frame(s) available)
+	at Producer.getMessage(Consumer.java:38)
+	at Consumer.run(Consumer.java:60)
+   2      0.00 %     [I     (6 frame(s) available)
+	at java.util.Hashtable.<init>(Hashtable.java:191)
+	at java.util.Hashtable.<init>(Hashtable.java:211)
+	at java.util.Properties.<init>(Properties.java:148)
+	at java.util.Properties.<init>(Properties.java:140)
+	at sun.misc.VM.<clinit>(VM.java:265)
+	at java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:197)

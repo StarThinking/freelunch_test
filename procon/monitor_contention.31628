@@ -1,0 +1,47 @@
+*****  Elapsed time: 1016 ms. | Phase average CSP: 0.35%
+ 1 - Phase CSP: 0.35 %, Class: Producer  (2 total frames)
+	at Producer.getMessage(Consumer.java:32)
+	at Consumer.run(Consumer.java:54)
+*****  Elapsed time: 4013 ms. | Phase average CSP: 0.00%
+ 1 - Phase CSP: 0.00 %, Class: Producer  (2 total frames)
+	at Producer.getMessage(Consumer.java:32)
+	at Consumer.run(Consumer.java:54)
+*****  Elapsed time: 22015 ms. | Phase average CSP: 0.00%
+ 1 - Phase CSP: 0.00 %, Class: Producer  (2 total frames)
+	at Producer.getMessage(Consumer.java:32)
+	at Consumer.run(Consumer.java:54)
+*****  Elapsed time: 23015 ms. | Phase average CSP: 0.00%
+ 1 - Phase CSP: 0.00 %, Class: Producer  (2 total frames)
+	at Producer.getMessage(Consumer.java:32)
+	at Consumer.run(Consumer.java:54)
+*****  Elapsed time: 33016 ms. | Phase average CSP: 0.00%
+ 1 - Phase CSP: 0.00 %, Class: Producer  (2 total frames)
+	at Producer.getMessage(Consumer.java:32)
+	at Consumer.run(Consumer.java:54)
+*****  Elapsed time: 63018 ms. | Phase average CSP: 0.00%
+ 1 - Phase CSP: 0.00 %, Class: Producer  (2 total frames)
+	at Producer.getMessage(Consumer.java:32)
+	at Consumer.run(Consumer.java:54)
+*****  Elapsed time: 74044 ms. | Phase average CSP: 0.00%
+ 1 - Phase CSP: 0.00 %, Class: Producer  (2 total frames)
+	at Producer.getMessage(Consumer.java:32)
+	at Consumer.run(Consumer.java:54)
+*****  Elapsed time: 81045 ms. | Phase average CSP: 0.00%
+ 1 - Phase CSP: 0.00 %, Class: Producer  (2 total frames)
+	at Producer.getMessage(Consumer.java:32)
+	at Consumer.run(Consumer.java:54)
+*****  Elapsed time: 91060 ms. | Phase average CSP: 0.00%
+ 1 - Phase CSP: 0.00 %, Class: Producer  (2 total frames)
+	at Producer.getMessage(Consumer.java:32)
+	at Consumer.run(Consumer.java:54)
+-----------------------------------------------------
+Monitors ranked by average CSP (CSPThresholdSummary: 0.01 %)
+Rank   Average CSP         Object class
+   1      0.00 %     Producer
+-----------------------------------------------------
+Monitors ranked by average CSP (CSPThresholdSummary: 0.01 %)
+Displaying the associated stack trace (10 frame(s) displayed maximum)
+Rank   Average CSP         Object class
+   1      0.00 %     Producer     (2 frame(s) available)
+	at Producer.getMessage(Consumer.java:32)
+	at Consumer.run(Consumer.java:54)
